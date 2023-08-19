@@ -201,7 +201,7 @@ function fillFormForEdit(student) {
   degreeInput.value = student.degree;
   emailInput.value = student.email;
 
-  submitButton.innerText = "Edit Student";
+  submitButton.innerText = "Update";
   cancelButton.style.display = "inline-block";
   editMode = true;
   currentStudentId = student.ID;
